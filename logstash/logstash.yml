@@ -1,0 +1,7 @@
+node:
+  name: logstash-dev
+pipeline:
+  workers: 1
+  batch:
+    size: 50
+  unsafe_shutdown: true
